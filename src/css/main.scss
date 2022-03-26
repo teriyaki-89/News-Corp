@@ -1,0 +1,39 @@
+.container {
+  margin-top: 10px;
+  padding: 10px;
+  .news {
+    display: flex;
+    a {
+        text-decoration: none;
+    }
+    .category {
+      color: #0059bf;
+      font-size: 16px;
+    }
+    h2 {
+      color: #000000;
+      font-size: 24px;
+    }
+    h3 {
+      color: #606669;
+      font-size: 17px;
+    }
+    .text {
+      flex-basis: 77%;
+      flex-grow: 1;
+    }
+    .img {
+      display: flex;
+      align-items: center;
+      flex-basis: 23%;
+      img {
+        width: 100%;
+      }
+    }
+  }
+
+  .border {
+    margin: 10px 0;
+    border-bottom: 1px solid #606669;
+  }
+}
